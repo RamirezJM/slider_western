@@ -1,0 +1,75 @@
+body,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(../img/fondo.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-family: "Rye", serif;
+	font-size: 3em;
+	color: #681012;
+	text-align: center;
+}
+
+#content {
+	margin: 4em auto 2em auto;
+	border: 10px solid #4C4C4C;
+	width: 443px;
+	height: 344px;
+	position: relative;
+}
+
+#content img {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+p {
+	text-align: center;
+}
+
+#links {
+	width: 420px;
+	display: flex;
+	margin: auto;
+}
+
+#links a {
+	display: block;
+	flex: 1;
+	background: #681012;
+	height: 50px;
+	line-height: 50px;
+	color: #D5D5D5;
+	text-decoration: none;
+	font-family: "Rye", serif;
+	font-size: 2em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#links a:hover {
+	background: #A51D1F;
+	color: #fff;
+}
+
+.fadeinimg {
+	animation: fadein 2s;
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
